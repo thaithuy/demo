@@ -1,0 +1,6 @@
+curl -i -X POST \
+ "https://graph.facebook.com/{user-id}/live_videos
+   ?status=LIVE_NOW
+   &title=Today%27s%20Live%20Video
+   &description=This%20is%20the%20live%20video%20for%20today.
+   &access_token={EAAE2DntUqgcBAA1DXkzSg43SxgSGWrxnQb1RHBcffBgt2JvK9gvQecigZC4JJuwx9AHjMz6hSZAxcPGiqFy9g1ZBPApcdFxoTkszcyXNkpwOYgfMKq0lMgjux2kW0aJ8KrbzsSdtg3AZAUHrgVmExy4XXpRkfJ6plOjWTfdbkZAmpJGBxcwU49ZAliBfZAF684ZD}"
